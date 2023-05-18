@@ -1,0 +1,82 @@
+.controls{
+display: flex;
+justify-content: space-around;
+
+
+}
+.container{
+   background-color: #f4f4f4;
+   text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.search-box{
+    width: 80%;
+    text-align: center;
+    position: relative;
+}
+.search-box input{
+    padding: 5px 40px;
+    margin: 0 80px;
+    width: 100%;
+    background-color: #dadada;
+    border: none;
+    border-radius:5px ;
+    font-size: 20px;
+    outline: none;
+}
+.search-box button{
+    position: absolute;
+    top: 0;
+    left: 80px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.feedback{
+    margin: 20px;
+    background-color: aquamarine;
+    width: 250px;
+    height: 25vh;
+    border:none ;
+    border-radius: 5px;
+}
+.feedback input{
+    margin-top: 40px;
+    background-color: aquamarine;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.feedback .info{
+    padding-top: 30px;
+}
+.active{
+    display: flex;
+    justify-content: space-between;
+    padding:  20px  ;
+    margin-top: 60px;
+    align-items: end;
+}
+.feedback button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.feedback-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 20%;
+}
+.main-container{
+display: flex;
+gap: 20px;
+}
